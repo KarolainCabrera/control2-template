@@ -33,6 +33,6 @@ exports.getTokens = (ctx) => {
 exports.getUsuarios = (ctx) => {
 
     ctx.body = {
-        message: "El usuario es: ", 
+        message: "El usuario es: ", User
     }
 }
