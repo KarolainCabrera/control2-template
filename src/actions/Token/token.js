@@ -9,7 +9,7 @@ exports.gettoken = (id, secret, key) => {
     return respuesta
 }
 
-exports.getUsuario = (gettoken(id, secret, key)[0]) => {
+exports.getUsuario = (gettoken[0]) => {
 
     let Usuario = getUsers()
     return Usuario
